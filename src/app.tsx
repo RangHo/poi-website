@@ -37,7 +37,7 @@ const Canvas = styled.canvas`
   top: 0;
   left: 0;
   background-color: ${props => props.theme.palette.white};
-  transition: 0.3s;
+  transition: background-color 0.3s;
 `
 
 const Wrapper = styled.div`
